@@ -55,4 +55,5 @@ public class Bakery {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
 }
