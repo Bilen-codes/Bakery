@@ -79,8 +79,8 @@ public class BakeryApp {
 
         System.out.println("Your list based on the restrictions you gave us: " );
         for (Bakery bread : customerList) {
-            System.out.println(bread.getName() + "\t\t " + bread.getPrice() + "\t\t " + bread.getExpirationDate() + "\t\t " +
-                    bread.getDietRestrictions() + "\t\t " + bread.getQuantity());
+            System.out.printf("%35s\t%7d\t%15s\t%15s\t%7d\n", bread.getName(), bread.getPrice(), bread.getExpirationDate(),
+                    bread.getDietRestrictions(), bread.getQuantity());
         }
 
 
